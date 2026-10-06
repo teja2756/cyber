@@ -1,0 +1,8 @@
+<!-- Educational Wazuh-style custom rule. Adapt rule IDs/severity to your Wazuh version. -->
+<group name="custom_auth,">
+  <rule id="100100" level="10">
+    <if_sid>5710</if_sid>
+    <description>Multiple failed SSH authentication events - SOC investigation required</description>
+    <group>authentication_failed,brute_force,</group>
+  </rule>
+</group>
