@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+*.key
+*.pem
+logs/
+*.log
+eve.json
+*.pcap
+secrets/
+credentials/
+.vscode/
+.idea/
